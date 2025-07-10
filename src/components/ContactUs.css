@@ -1,0 +1,84 @@
+/* ContactUs Section Styles */
+section.contact-section {
+  background: #f8fafc;
+  padding: 60px 0 40px 0;
+  text-align: center;
+ width: 100%;
+ height: 60%;
+ background-color: chocolate;
+}
+section.contact-section h2{
+    font-size: 3.9rem;
+    color: #dedad8;
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: -2px;
+    
+}
+section.contact-section p{
+    font-size: 1.5rem;
+    color: #dedad8;
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: -2px;
+}
+.contact-content{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 2px;
+    border: 6px solid #dedad8;
+    border-radius: 10px;
+    padding: 10px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 10%;
+}
+div.contact-content p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.7rem;
+}
+div.contact-content a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.7rem;
+    color: #dedad8;
+    text-decoration:none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    letter-spacing: 3px;
+}
+div.contact-content a:hover{
+     color: #f7f704;
+     text-decoration:underline;
+     background: #29292986;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 3rem;
+     font-weight: bold;
+     font-style: italic;
+     font-variant:initial;
+     font-stretch: expanded;
+     font-kerning: normal;
+     letter-spacing: 9px;
+     padding: 10px;
+     border-radius: 10px;
+     border: 3px solid #dedad8;
+     margin-bottom: 10px;
+     margin-top: 10px;
+     margin-left: 10px;
+     transition: all 0.3s ease;
+     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+     transform: scale(1.05) translateX(40px) translateY(-20px);
+     cursor: pointer;
+     text-align: center;
+     text-decoration: none;
+     float: right;
+     position: relative;
+     z-index: 10;
+ }
+
+
+

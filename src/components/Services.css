@@ -1,0 +1,117 @@
+body{
+  margin-top: 55%;
+
+}
+.el-services{
+  margin-top: -2%;
+  margin-bottom: 15%;
+  height: 100vh;
+}
+.el-services h2{
+  font-size: 3.2rem;
+  color: #bc3f09;
+  font-family: cursive;
+  text-align: center;
+  margin-bottom: -2px;
+}
+
+.el-section-desc {
+  color: #888;
+  margin-bottom: 32px;
+  font-size: 2rem;
+  text-align: center;
+  font-family: cursive;
+}
+
+.el-services-cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin-bottom: 24px;
+  
+}
+
+.el-service-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(209, 84, 1, 0.863);
+  padding: 32px 24px 24px 24px;
+  width: 500px;
+  height: 600px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.el-service-img {
+  width: 60%;
+  height: 300px;
+  border-radius: 12px;
+  background: #e0f7fa;
+  margin-bottom: 18px;
+  margin-left: 20%;
+}
+
+.el-service-link {
+  color: #ffa751;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: auto;
+  font-size: 1.5rem;
+}
+
+.service-link:hover {
+  text-decoration: underline;
+  
+}
+
+@media (max-width: 900px) {
+  .services-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .services-title {
+    font-size: 1.3rem;
+  }
+  .service-card {
+    width: 95vw;
+    padding: 18px 8px;
+  }
+} 
+
+.el-service-img-1 { background: url('https://hdcdnsun2.r.worldssl.net/sites/www.hypnosisdownloads.com/files/product-images/guided-meditation_0.jpg') center/cover no-repeat; }
+.el-service-img-2 { background: url('https://tse3.mm.bing.net/th/id/OIP.pW9O7Id5jVnF7_wPMMQHYgHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3') center/cover no-repeat; }
+.el-service-img-3 { background: url('https://tse3.mm.bing.net/th/id/OIP.KIuegBuH3el7CPZh7MIsWQHaEJ?r=0&pid=ImgDet&w=474&h=265&rs=1&o=7&rm=3') center/cover no-repeat; }
+.el-service-img-4 { background: url('https://tse3.mm.bing.net/th/id/OIP.Gb14C6diSWjBWbPgn2XMOgHaLH?r=0&pid=ImgDet&w=178&h=267&c=7&dpr=1.5&o=7&rm=3') center/cover no-repeat; }
+.el-service-img-5 { background: url('https://tse3.mm.bing.net/th/id/OIP.IS0KwXBoqWQMyCiSxLc1EQHaE7?r=0&pid=ImgDet&w=178&h=118&c=7&dpr=1.5&o=7&rm=3') center/cover no-repeat; }
+.el-service-img-6 { background: url('https://tse2.mm.bing.net/th/id/OIP.lp2uoMWz547eypBvm9N6OwHaLH?r=0&pid=ImgDet&w=178&h=267&c=7&dpr=1.5&o=7&rm=3') center/cover no-repeat; }
+.el-service-card h3 {
+  font-size: 1.9rem;
+  color: #de6407e6;
+  margin-bottom: 8px;
+}
+.el-service-card p {
+  color: #363434;
+  margin-bottom: 12px;
+  font-family: cursive;
+  font-size: 1.4rem;
+  overflow-wrap: break-word;
+  white-space: normal;
+  display:flex;
+}
+.el-service-link {
+  color: #ffa751;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: auto;
+}
+.el-service-link:hover {
+  text-decoration: underline;
+}
+.el-services-viewall {
+  margin-top: 10px;
+}

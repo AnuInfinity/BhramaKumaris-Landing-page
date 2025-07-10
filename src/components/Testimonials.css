@@ -1,0 +1,133 @@
+body{
+    margin-top: 10%;
+  
+  }
+  .test-testimonial{
+    margin-top: -2%;
+    margin-bottom: 1%;
+    height: 70vh;
+    background-color: #c2bebe44;
+  }
+  .test-services h2{
+    font-size: 3.2rem;
+    color: #bc3f09;
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: -2px;
+  }
+  .test-title {
+    font-size: 3.2rem;
+    color: #bc3f09;
+    font-family: cursive;
+    text-align: center;
+}
+  
+  .test-desc {
+    color: #888;
+    margin-bottom: 32px;
+    font-size: 2rem;
+    text-align: center;
+    font-family: cursive;
+  }
+  
+  .test-cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-bottom: 24px;
+    
+  }
+  
+  .test-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 12px rgba(209, 84, 1, 0.863);
+    padding: 32px 24px 24px 24px;
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .test-img {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+    background: #e0f7fa;
+    margin-bottom: 18px;
+    margin-left: 1%;
+  }
+  
+  .test-link {
+    color: #ffa751;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: auto;
+    font-size: 1.5rem;
+  }
+  
+  .test-link:hover {
+    text-decoration: underline;
+    
+  }
+  
+  @media (max-width: 900px) {
+    .test-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .test-title {
+        font-size: 3.2rem;
+        color: #bc3f09;
+        font-family: cursive;
+        text-align: center;
+    }
+    .test-card {
+      width: 95vw;
+      padding: 18px 8px;
+    }
+  } 
+  
+  .test-img-7 { background: url('https://www.brahmakumaris.com/wp-content/uploads/2025/07/Ayesha-Kapoor-768x432.jpg') center/cover no-repeat; }
+  .test-img-8 { background: url('https://www.brahmakumaris.com/wp-content/uploads/2025/06/Avnish-Goyal-2-768x432.jpg') center/cover no-repeat; }
+ 
+  .test-card h3 {
+    font-size: 1.9rem;
+    color: #de6407e6;
+    margin-bottom: 8px;
+  }
+  .test-card p {
+    color: #363434;
+    margin-bottom: 12px;
+    font-family: cursive;
+    font-size: 1.4rem;
+    overflow-wrap: break-word;
+    white-space: normal;
+    display:flex;
+  }
+  .test-link {
+    color: #ffa751;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: auto;
+  }
+  .test-link:hover {
+    text-decoration: underline;
+  }
+  .test-viewall{
+    color: #ffa751;
+    display: block;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 48%;
+    margin-top: 5%;
+    box-shadow: 2 2px 2px rgba(209, 84, 1, 0.863);
+    width: 200px;
+  }

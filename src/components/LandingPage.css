@@ -1,0 +1,128 @@
+/* Reset and base styles */
+* {
+  margin-top: 1px;
+  padding: 0;
+}
+
+.landing-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: -270px;
+  color: #333;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* --- Navigation Bar --- */
+.el-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  
+}
+.el-navbar-left {
+  display: flex;
+  align-items: flex-start; /* Align children (logo image and text) to the top */
+  gap: 10px; /* Optional: space between image and text */
+}
+.el-logo {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #984000f1;
+  background: #fff;
+  margin-top: 18px;
+ 
+}
+.el-logo-img img {
+  width: 82px;
+  height: 98px;
+  display: block;
+}
+.el-navbar-menu {
+  display: flex;
+  gap: 80px;
+  list-style: none;
+  font-size: 90%;
+  font-weight: 2000;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.el-navbar-menu li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  font-size: 1.90rem;
+  transition: color 0.2s;
+}
+.el-navbar-menu li a:hover {
+  color: #1ec6e6;
+}
+.el-navbar-right {
+  display: flex;
+  gap: 10px;
+}
+
+/* --- Hero Section --- */
+.el-hero{
+  background: #f2f6f7;
+  width: 100vw;   /* Full viewport width */
+  height: 100vh;  
+}
+.el-chakra-text{
+  font-size: 3rem;
+  color: #f5f8f9;
+  margin-left: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.text{
+  font-size: 1.9rem;
+  color: #f9f7f7;
+  margin-left: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500; 
+}
+.image-text-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  margin-bottom: -2%;
+}
+
+.overlay-text {
+  position:absolute;
+  left: 50%;
+  bottom: 10px;
+  height: 0rem;
+  background-color: transparent;
+  margin-top: 26%;
+  width: 90%;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 12px 2px;
+    border-radius: 8px;
+    z-index: 2;
+    width: 80%;
+    font-size: 1.1rem;
+}
+
